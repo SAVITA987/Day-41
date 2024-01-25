@@ -1,0 +1,39 @@
+body {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHQvkq9GB4aPokY7U1-ekmcmHWwoyhk8-x1w&usqp=CAU');
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: center; 
+}
+
+header {
+  background-color: rgba(245, 198, 117, 0.8); 
+  padding: 0;
+  
+}
+footer {
+  background-color: rgba(106, 180, 245, 0.8); 
+  
+  padding: 10px;
+  text-align: center;
+  position: fixed; 
+  left: 0;
+  bottom: 0; 
+  width: 100%;
+  text-decoration-color: #000; 
+}
+
+header {
+  text-align: center;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.cards img {
+  margin: 15px;
+  border: 3px solid #000;
+  box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+  max-width: 20vw; 
+}

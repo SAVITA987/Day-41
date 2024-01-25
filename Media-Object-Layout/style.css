@@ -1,0 +1,44 @@
+.media {
+  display: flex;
+  align-items: flex-start;
+  background: #598469c7;
+  padding: 20px; 
+  border-radius: 7px;
+  max-width: 70em;
+  
+ 
+}
+.media1 {
+ 
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTk9P_M-SOz_szeG8WYFEhcbC9Sbsxtp_QboA&usqp=CAU');
+ 
+ 
+}
+
+.media-object {
+  border-radius: 9px;
+  margin-right: 5em; 
+  max-width: 600px; 
+  height: 600px;
+  background-color: aquamarine;
+  
+}
+p {
+  font-size: 1.3em; 
+color: rgb(220, 233, 233);
+}
+
+.media-body {
+  flex: 4;
+}
+
+.media-heading {
+  margin: 0 0 .5em;
+  color: rgb(227, 236, 244);
+  font-size: 2.0em; 
+}
+header {
+  text-align: center; 
+  background-color: rgb(245, 170, 78);
+  padding: 5px;
+}

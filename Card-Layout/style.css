@@ -1,0 +1,95 @@
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+.card {
+  flex: 0 0 200px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+} 
+.card img {
+  max-width: 100%;
+}
+.card .text {
+  padding: 0 20px 20px;
+}
+
+  header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #76d7aa;
+}
+
+
+.card button:hover {
+  background-color: #45a049;
+}
+/* CSS for background image */
+body {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaeH-e_tF7uKzQozFZPqGAsVmHjhGhY6k5I9cEHUjbzsyHlZ_Tg3iSU3HtVI_2_uoG1Ec&usqp=CAU');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+}
+
+header h1 {
+  font-size: 24px;
+  color: #333;
+}
+
+/* CSS for cards */
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 20px auto;
+}
+
+.card {
+  width: calc(50% - 20px);
+  margin-bottom: 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.card .text {
+  padding: 20px;
+}
+
+.card h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.card button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.card button:hover {
+  background-color: #45a049;
+}
